@@ -1,6 +1,9 @@
 # Binder
 
-Samengevat; Er kunnen maximaal 100 gebruikers met een repo verbinden wat in de context van een universiteit niet genoeg is. Qua veiligheid van binder zijn er echter verschillende maatregelen genomen om misbruik te voorkomen. Zo kunnen gebruikers geen cryptomunten mijnen en zijn er verschillende ‘’resource limits’’. Numpy lijkt/leek echter wel binder te gebruiken terwijl je zou verwachten dat er meer dan 100 mensen tegelijkertijd naar de numpy documentatie kijken.
+Samengevat; Er kunnen maximaal 100 gebruikers met een repo verbinden wat in de context van een universiteit niet genoeg is. De vraag is echter of een blok code in een jupyterbook die via thebe geladen wordt ook als een 'repository' telt. De numpy documentatie leek ook binder via thebe te gebruiken voordat ze overgingen op JupyterLite wat een teken zou kunnen zijn dat die 100 max niet geld voor via thebe geladen python code. 
+
+Qua veiligheid van binder zijn er verschillende maatregelen genomen om misbruik te voorkomen. Zo kunnen gebruikers geen cryptomunten mijnen en zijn er verschillende ‘’resource limits’’. 
+
 
 ## Maximum of 100 people per repository
 
