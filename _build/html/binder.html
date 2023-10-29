@@ -170,6 +170,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Binder</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jupyter.html">The use of Jupyter servers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Notebook testjes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="test.html">My simple notebook</a></li>
 </ul>
 
     </div>
@@ -224,7 +225,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/luukfroling/NotesOnBinder" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -241,7 +242,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fbinder.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/luukfroling/NotesOnBinder/issues/new?title=Issue%20on%20page%20%2Fbinder.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -379,7 +380,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="binder">
 <h1>Binder<a class="headerlink" href="#binder" title="Permalink to this heading">#</a></h1>
-<p>Samengevat; Er kunnen maximaal 100 gebruikers met een repo verbinden wat in de context van een universiteit niet genoeg is. Qua veiligheid van binder zijn er echter verschillende maatregelen genomen om misbruik te voorkomen. Zo kunnen gebruikers geen cryptomunten mijnen en zijn er verschillende ‘’resource limits’’. Numpy lijkt/leek echter wel binder te gebruiken terwijl je zou verwachten dat er meer dan 100 mensen tegelijkertijd naar de numpy documentatie kijken.</p>
+<p>Samengevat; Er kunnen maximaal 100 gebruikers met een repo verbinden wat in de context van een universiteit niet genoeg is. De vraag is echter of een blok code in een jupyterbook die via thebe geladen wordt ook als een ‘repository’ telt. De numpy documentatie leek ook binder via thebe te gebruiken voordat ze overgingen op JupyterLite wat een teken zou kunnen zijn dat die 100 max niet geld voor via thebe geladen python code.</p>
+<p>Qua veiligheid van binder zijn er verschillende maatregelen genomen om misbruik te voorkomen. Zo kunnen gebruikers geen cryptomunten mijnen en zijn er verschillende ‘’resource limits’’.</p>
 <section id="maximum-of-100-people-per-repository">
 <h2>Maximum of 100 people per repository<a class="headerlink" href="#maximum-of-100-people-per-repository" title="Permalink to this heading">#</a></h2>
 <p><img alt="max" src="_images/binder_max.png" /></p>
@@ -400,7 +402,7 @@ document.write(`
     {
         requestKernel: true,
         binderOptions: {
-            repo: "executablebooks/jupyter-book",
+            repo: "luukfroling/NotesOnBinder",
             ref: "master",
         },
         codeMirrorConfig: {
