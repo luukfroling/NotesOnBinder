@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>The use of Jupyter servers &#8212; Luuks aantekeningen</title>
+    <title>Binder &#8212; Luuks aantekeningen</title>
   
   
   
@@ -19,84 +19,82 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/theme.css" />
-    <link rel="stylesheet" type="text/css" href="_static/vendor/fontawesome/6.1.2/css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/vendor/fontawesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/copybutton_funcs.js"></script>
-    <script src="_static/design-tabs.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/documentation_options.js"></script>
-    <script src="_static/jquery-3.6.0.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/sphinx-thebe.js"></script>
-    <script src="_static/togglebutton.js"></script>
-    <script src="_static/underscore-1.13.1.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/scripts/bootstrap.js"></script>
-    <script src="_static/scripts/pydata-sphinx-theme.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js"></script>
-    <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/copybutton_funcs.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery-3.6.0.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/sphinx-thebe.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/underscore-1.13.1.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/scripts/bootstrap.js"></script>
+    <script src="../_static/scripts/pydata-sphinx-theme.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'jupyter';</script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Notebook testjes" href="notebooks.html" />
-    <link rel="prev" title="Binder" href="binder.html" />
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_sources/binder';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -133,7 +131,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="search.html"
+      action="../search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -171,7 +169,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="intro.html">
+<a class="navbar-brand logo" href="../intro.html">
   
   
   
@@ -181,8 +179,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -191,18 +189,18 @@ const thebe_selector_output = ".output, .cell_output"
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
-                <a class="reference internal" href="intro.html">
+                <a class="reference internal" href="../intro.html">
                     Welkom bij Luuk’s test bestand (try again)
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="binder.html">Binder</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">The use of Jupyter servers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Notebook testjes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="test.html">My simple notebook</a></li>
-<li class="toctree-l1"><a class="reference internal" href="AantekeningenUitDeTrein.html">Aantekeningen uit de vrijdag trein naar huis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="donderdagavond.html">zoals de titel zegt</a></li>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../binder.html">Binder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../jupyter.html">The use of Jupyter servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks.html">Notebook testjes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../test.html">My simple notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AantekeningenUitDeTrein.html">Aantekeningen uit de vrijdag trein naar huis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donderdagavond.html">zoals de titel zegt</a></li>
 </ul>
 
     </div>
@@ -274,7 +272,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/luukfroling/NotesOnBinder/issues/new?title=Issue%20on%20page%20%2Fjupyter.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/luukfroling/NotesOnBinder/issues/new?title=Issue%20on%20page%20%2F_sources/binder.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -304,7 +302,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/jupyter.md" target="_blank"
+      <li><a href="../_sources/_sources/binder.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -386,7 +384,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>The use of Jupyter servers</h1>
+    <h1>Binder</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -396,8 +394,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-thebe-and-jupyter">Setup Thebe and Jupyter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-no-github-of-binder">Setup no github of binder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#maximum-of-100-people-per-repository">Maximum of 100 people per repository</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#security-measures-in-place-by-binder">Security measures in place by binder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy-using-binder">Numpy using binder</a></li>
 </ul>
             </nav>
         </div>
@@ -409,21 +408,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="the-use-of-jupyter-servers">
-<h1>The use of Jupyter servers<a class="headerlink" href="#the-use-of-jupyter-servers" title="Permalink to this heading">#</a></h1>
-<p>Samengevat; Met het gebruik van MyST markdown kan er ook verbonden worden met een lokale (zie case no github or binder keys present) of zelf gehoste jupyter server. Ik ben er zelf nog niet helemaal uit hoe dit dan precies zou moeten werken in een jupyterbook (en of dit werkt).
-<img alt="myST" src="_images/myst.png" />
-Link : <a class="reference external" href="https://jupyterbook.org/en/stable/content/myst.html">https://jupyterbook.org/en/stable/content/myst.html</a>.</p>
-<p>Dit zorgt ervoor dat binder niet meer gebruikt hoeft te worden. Het nadeel is wel dat een jupyter server niet standaard met cpu limieten komt, wel met een wachtwoord.</p>
-<section id="setup-thebe-and-jupyter">
-<h2>Setup Thebe and Jupyter<a class="headerlink" href="#setup-thebe-and-jupyter" title="Permalink to this heading">#</a></h2>
-<p><img alt="thebe_Setup" src="_images/thebe_setup.png" /></p>
-<p>Link : <a class="reference external" href="https://mystmd.org/guide/integrating-jupyter#directly-connecting-to-a-jupyter-server">https://mystmd.org/guide/integrating-jupyter#directly-connecting-to-a-jupyter-server</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="binder">
+<h1>Binder<a class="headerlink" href="#binder" title="Permalink to this heading">#</a></h1>
+<p>Samengevat; Er kunnen maximaal 100 gebruikers met een repo verbinden wat in de context van een universiteit niet genoeg is. De vraag is echter of een blok code in een jupyterbook die via thebe geladen wordt ook als een ‘repository’ telt. De numpy documentatie leek ook binder via thebe te gebruiken voordat ze overgingen op JupyterLite wat een teken zou kunnen zijn dat die 100 max niet geld voor via thebe geladen python code.</p>
+<p>Qua veiligheid van binder zijn er verschillende maatregelen genomen om misbruik te voorkomen. Zo kunnen gebruikers geen cryptomunten mijnen en zijn er verschillende ‘’resource limits’’.</p>
+<section id="maximum-of-100-people-per-repository">
+<h2>Maximum of 100 people per repository<a class="headerlink" href="#maximum-of-100-people-per-repository" title="Permalink to this heading">#</a></h2>
+<p><img alt="max" src="../_images/binder_max.png" /></p>
 </section>
-<section id="setup-no-github-of-binder">
-<h2>Setup no github of binder<a class="headerlink" href="#setup-no-github-of-binder" title="Permalink to this heading">#</a></h2>
-<p><img alt="thebe_none_found" src="_images/thebe-no.png" /></p>
-<p>Link : <a class="reference external" href="https://mystmd.org/guide/integrating-jupyter#directly-connecting-to-a-jupyter-server">https://mystmd.org/guide/integrating-jupyter#directly-connecting-to-a-jupyter-server</a></p>
+<section id="security-measures-in-place-by-binder">
+<h2>Security measures in place by binder<a class="headerlink" href="#security-measures-in-place-by-binder" title="Permalink to this heading">#</a></h2>
+<p><img alt="security" src="../_images/security.png" /></p>
+<p>Zie  <a class="reference external" href="https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#how-long-will-my-binder-session-last">https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#how-long-will-my-binder-session-last</a></p>
+</section>
+<section id="numpy-using-binder">
+<h2>Numpy using binder<a class="headerlink" href="#numpy-using-binder" title="Permalink to this heading">#</a></h2>
+<p><img alt="Numpy" src="../_images/numpy.png" /></p>
+<p>Zie <a class="reference external" href="https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8">https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8</a> (Ik moet nog uitzoeken hoe een link werkt)</p>
 </section>
 </section>
 
@@ -440,7 +441,7 @@ Link : <a class="reference external" href="https://jupyterbook.org/en/stable/con
         },
         kernelOptions: {
             name: "python3",
-            path: "./."
+            path: "./_sources"
         },
         predefinedOutput: true
     }
@@ -457,24 +458,6 @@ Link : <a class="reference external" href="https://jupyterbook.org/en/stable/con
                 <footer class="prev-next-footer">
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="binder.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Binder</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="notebooks.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebook testjes</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -490,8 +473,9 @@ Link : <a class="reference external" href="https://jupyterbook.org/en/stable/con
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-thebe-and-jupyter">Setup Thebe and Jupyter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-no-github-of-binder">Setup no github of binder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#maximum-of-100-people-per-repository">Maximum of 100 people per repository</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#security-measures-in-place-by-binder">Security measures in place by binder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numpy-using-binder">Numpy using binder</a></li>
 </ul>
   </nav></div>
 
@@ -539,8 +523,8 @@ By Luuk Fröling
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
   <footer class="bd-footer">
   </footer>
