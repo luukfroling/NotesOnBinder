@@ -13,3 +13,12 @@ Binder zegt dat hij blijft laden zonder dat er iets gebeurd. Dit gaat oneindig d
 ## 1
 
 Ik heb alles qua github uit de _config.yml gehaald. Binder laad nu locaal binnen 3 seconde maar github pages werkt niet meer.
+
+## 2 
+
+github desktop goed opgezet zodat github pages sneller werkt
+
+## 3 
+
+Nogsteeds niks in _config.yml, laadtijd eerste keer vrij hoog maar hij laad wel -> foto om het demonstratieeffect voor te zijn
+![demonstratie](./images/demonstratieeffect.png)
