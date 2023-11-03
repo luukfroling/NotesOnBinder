@@ -1,4 +1,4 @@
-# zoals de titel zegt
+# Aantekeningen op de late donderdagavond
 
 Het lijkt erop dat thebe alleen bestanden van github kan halen: 
 ![thebeGithub](./images/thebeGithub.png)
