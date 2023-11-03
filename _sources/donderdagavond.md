@@ -39,3 +39,7 @@ De vraag is of alle bestanden van het boek mee moeten verhuizen of alleen de not
 Bewijs maximum aantal users; omdat de live code launch het niet bleef doen even op de website getest
 ![binderUsers](./images/binder_max.png)
 Het lijkt erop dat binder zozo niet zo goed werkt op het moment (2/11/2023 9:32)
+
+## 7
+Na het toevoegen van deze code gaat het weer kapot, met de head error.
+![eerste_error](./images/url.png)
