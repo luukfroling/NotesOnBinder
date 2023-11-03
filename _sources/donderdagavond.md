@@ -41,5 +41,11 @@ Bewijs maximum aantal users; omdat de live code launch het niet bleef doen even 
 Het lijkt erop dat binder zozo niet zo goed werkt op het moment (2/11/2023 9:32)
 
 ## 7
+
 Na het toevoegen van deze code gaat het weer kapot, met de head error.
 ![eerste_error](./images/url.png)
+
+## 8 oplossing voor 7
+
+Dit lost de error op: deze laad gedurende 10 seconde zonder de opgeslagen versie te gebruiken ( note 4)
+![head](./images/head.png)
